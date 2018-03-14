@@ -1,0 +1,137 @@
+Testing started at 2:34 PM ...
+C:\GitHub\okila-selenium\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm Community Edition 2017.3.4\helpers\pycharm\_jb_pytest_runner.py" --path C:/GitHub/okila-selenium/test-google.py
+Launching py.test with arguments C:/GitHub/okila-selenium/test-google.py in C:\GitHub\okila-selenium
+
+============================= test session starts =============================
+platform win32 -- Python 3.6.4, pytest-3.4.2, py-1.5.2, pluggy-0.6.0
+rootdir: C:\GitHub\okila-selenium, inifile:
+collected 1 item
+test-google.py E
+test setup failed
+request = <SubRequest 'driver' for <Function 'test_example'>>
+
+    @pytest.fixture
+    def driver(request):
+        #wd = webdriver.Chrome()
+        #wd = webdriver.Firefox()
+>       wd = webdriver.Ie()
+
+test-google.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+venv\lib\site-packages\selenium\webdriver\ie\webdriver.py:87: in __init__
+    desired_capabilities=capabilities)
+venv\lib\site-packages\selenium\webdriver\remote\webdriver.py:154: in __init__
+    self.start_session(desired_capabilities, browser_profile)
+venv\lib\site-packages\selenium\webdriver\remote\webdriver.py:243: in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+venv\lib\site-packages\selenium\webdriver\remote\webdriver.py:310: in execute
+    response = self.command_executor.execute(driver_command, params)
+venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py:466: in execute
+    return self._request(command_info[0], url, body=data)
+venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py:528: in _request
+    resp = opener.open(request, timeout=self._timeout)
+C:\python\lib\urllib\request.py:526: in open
+    response = self._open(req, data)
+C:\python\lib\urllib\request.py:544: in _open
+    '_open', req)
+C:\python\lib\urllib\request.py:504: in _call_chain
+    result = func(*args)
+C:\python\lib\urllib\request.py:1346: in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+C:\python\lib\urllib\request.py:1321: in do_open
+    r = h.getresponse()
+C:\python\lib\http\client.py:1331: in getresponse
+    response.begin()
+C:\python\lib\http\client.py:297: in begin
+    version, status, reason = self._read_status()
+C:\python\lib\http\client.py:258: in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <socket.SocketIO object at 0x05C7B970>, b = <memory at 0x05BBEA58>
+
+    def readinto(self, b):
+        """Read up to len(b) bytes into the writable buffer *b* and return
+            the number of bytes read.  If the socket is non-blocking and no bytes
+            are available, None is returned.
+    
+            If *b* is non-empty, a 0 return value indicates that the connection
+            was shutdown at the other end.
+            """
+        self._checkClosed()
+        self._checkReadable()
+        if self._timeout_occurred:
+            raise OSError("cannot read from timed out object")
+        while True:
+            try:
+>               return self._sock.recv_into(b)
+E               ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+C:\python\lib\socket.py:586: ConnectionResetError
+                                                         [100%]
+
+=================================== ERRORS ====================================
+_______________________ ERROR at setup of test_example ________________________
+
+request = <SubRequest 'driver' for <Function 'test_example'>>
+
+    @pytest.fixture
+    def driver(request):
+        #wd = webdriver.Chrome()
+        #wd = webdriver.Firefox()
+>       wd = webdriver.Ie()
+
+test-google.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+venv\lib\site-packages\selenium\webdriver\ie\webdriver.py:87: in __init__
+    desired_capabilities=capabilities)
+venv\lib\site-packages\selenium\webdriver\remote\webdriver.py:154: in __init__
+    self.start_session(desired_capabilities, browser_profile)
+venv\lib\site-packages\selenium\webdriver\remote\webdriver.py:243: in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+venv\lib\site-packages\selenium\webdriver\remote\webdriver.py:310: in execute
+    response = self.command_executor.execute(driver_command, params)
+venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py:466: in execute
+    return self._request(command_info[0], url, body=data)
+venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py:528: in _request
+    resp = opener.open(request, timeout=self._timeout)
+C:\python\lib\urllib\request.py:526: in open
+    response = self._open(req, data)
+C:\python\lib\urllib\request.py:544: in _open
+    '_open', req)
+C:\python\lib\urllib\request.py:504: in _call_chain
+    result = func(*args)
+C:\python\lib\urllib\request.py:1346: in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+C:\python\lib\urllib\request.py:1321: in do_open
+    r = h.getresponse()
+C:\python\lib\http\client.py:1331: in getresponse
+    response.begin()
+C:\python\lib\http\client.py:297: in begin
+    version, status, reason = self._read_status()
+C:\python\lib\http\client.py:258: in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <socket.SocketIO object at 0x05C7B970>, b = <memory at 0x05BBEA58>
+
+    def readinto(self, b):
+        """Read up to len(b) bytes into the writable buffer *b* and return
+            the number of bytes read.  If the socket is non-blocking and no bytes
+            are available, None is returned.
+    
+            If *b* is non-empty, a 0 return value indicates that the connection
+            was shutdown at the other end.
+            """
+        self._checkClosed()
+        self._checkReadable()
+        if self._timeout_occurred:
+            raise OSError("cannot read from timed out object")
+        while True:
+            try:
+>               return self._sock.recv_into(b)
+E               ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+C:\python\lib\socket.py:586: ConnectionResetError
+=========================== 1 error in 9.25 seconds ===========================
+Process finished with exit code 0
