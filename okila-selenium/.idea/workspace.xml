@@ -26,7 +26,7 @@
       <file leaf-file-name="test-lesson-11.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-lesson-11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="1440">
               <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="test-lesson-12.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-lesson-12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="365">
+              <caret line="121" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -99,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -112,6 +111,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test-lesson-12.test_example">
+  <component name="RunManager" selected="Python tests.py.test in test-lesson-12.py">
     <configuration name="py.test for test-lesson-11.test_example" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,8 +214,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test-lesson-12.test_example" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test-lesson-12.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test-lesson-12.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test-lesson-12.test_example" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test-lesson-11.test_example" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test-lesson-11.py" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test-extra-3.py" />
@@ -239,9 +239,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test-lesson-12_test_example - 2018.03.25 at 23h 01m 33s.xml">
-      <configuration name="py.test for test-lesson-12.test_example" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test-extra-3_py - 2018.03.22 at 12h 59m 18s.xml">
       <configuration name="py.test in test-extra-3.py" configurationId="tests" />
     </history-entry>
@@ -267,6 +264,9 @@
       <configuration name="py.test in test-lesson-11.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test-lesson-12_py - 2018.03.25 at 22h 55m 16s.xml">
+      <configuration name="py.test in test-lesson-12.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test-lesson-12_py - 2018.03.26 at 11h 53m 19s.xml">
       <configuration name="py.test in test-lesson-12.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -654,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,7 +669,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-lesson-11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="1440">
           <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -682,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-lesson-12.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="365">
+          <caret line="121" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
