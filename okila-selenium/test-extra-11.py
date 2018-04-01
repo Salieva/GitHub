@@ -22,6 +22,13 @@ def driver(request):
     request.addfinalizer(wd.quit)
     return wd
 
+def is_element_present(driver, *args):
+    try:
+        driver.find_element(*args)
+        return True
+    except NoSuchElementException:
+        return False
+
 def test_example(driver):
     # driver.get("http://localhost/litecart/admin/")
     driver.get("http://localhost/litecart/")
@@ -55,6 +62,29 @@ def test_example(driver):
     driver.find_element_by_css_selector('#create-account input[name="password"]').send_keys("44444444")
     driver.find_element_by_css_selector('#create-account input[name="confirmed_password"]').send_keys("44444444")
     driver.find_element_by_css_selector('#create-account button[name="create_account"]').click()
-    time.sleep(5)
+    time.sleep(2)
+    assert is_element_present(driver, By.CSS_SELECTOR, '#box-account') is True
+
+    box = driver.find_elements_by_css_selector('#box-account a')
+    for elem in box:
+        if elem.text == 'Logout':
+            elem.click()
+            break
+
+    assert is_element_present(driver, By.CSS_SELECTOR, '#box-account-login') is True
+
+    driver.find_element_by_css_selector('#box-account-login input[name="email"]').send_keys(mail)
+    driver.find_element_by_css_selector('#box-account-login input[name="password"]').send_keys("44444444")
+    driver.find_element_by_css_selector('#box-account-login button[name="login"]').click()
+
+    time.sleep(2)
+
+    box = driver.find_elements_by_css_selector('#box-account a')
+    for elem in box:
+        if elem.text == 'Logout':
+            elem.click()
+            break
+
+    time.sleep(10)
 
 

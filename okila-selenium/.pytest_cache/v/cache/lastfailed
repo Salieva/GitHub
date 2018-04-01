@@ -1,3 +1,4 @@
 {
-  "test-extra-1.py::test_example": true
+  "test-extra-1.py::test_example": true,
+  "text-extra-13.py": true
 }
