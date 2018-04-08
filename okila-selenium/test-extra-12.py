@@ -32,6 +32,7 @@ def is_element_present(driver, *args):
 
 def test_example(driver):
     wait = WebDriverWait(driver, 10)
+    driver.maximize_window()
     driver.get('http://localhost/litecart/admin')
     wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#box-login button[name="login"]')))
     time.sleep(1)
@@ -68,4 +69,45 @@ def test_example(driver):
             elem.click()
             break
 
-    time.sleep(5)
+    img_file = os.path.abspath('zaya.png')
+    driver.find_element_by_css_selector('#tab-general input[name="new_images[]"]').send_keys(img_file)
+    # driver.find_element_by_css_selector('#tab-general input[name="date_valid_from"]').clear()
+    driver.find_element_by_css_selector('#tab-general input[name="date_valid_from"]')\
+                                                                    .send_keys(Keys.HOME + '04/01/2018')
+    driver.find_element_by_css_selector('#tab-general input[name="date_valid_to"]') \
+                                                                     .send_keys(Keys.HOME + '05/01/2018')
+
+    driver.find_element_by_css_selector('#content a[href*="#tab-information"]').click()
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#tab-information input[name="keywords"]')))
+    wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, 'select[name="manufacturer_id"] option[value="1"]')))
+    driver.find_element_by_css_selector('select[name="manufacturer_id"] option[value="1"]').click()
+    driver.find_element_by_css_selector('#tab-information input[name="keywords"]')\
+        .send_keys('keywords_AAAA' + Keys.TAB + 'shortdesc_Zaya' + Keys.TAB + 'desc_Zaya_with_flowers' + Keys.TAB + 'headtitle_Zayka' + Keys.TAB + 'meta_Ogogo')
+
+    driver.find_element_by_css_selector('#content a[href*="#tab-prices"]').click()
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#tab-prices input[name="purchase_price"]')))
+    driver.find_element_by_css_selector('#tab-prices input[name="purchase_price"]').clear()
+    driver.find_element_by_css_selector('#tab-prices input[name="purchase_price"]').send_keys('30')
+    box = driver.find_elements_by_css_selector('#tab-prices select[name="purchase_price_currency_code"] option')
+    for elem in box:
+        if elem.text == 'US Dollars':
+            elem.click()
+            break
+    driver.find_element_by_css_selector('#tab-prices input[name="prices[USD]"]').send_keys('30')
+    driver.find_element_by_css_selector('#tab-prices input[name="prices[EUR]"]').send_keys('27')
+    driver.find_element_by_css_selector('button[name="save"]').click()
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#content a')))
+    box = driver.find_elements_by_css_selector('#content a')
+    for elem in box:
+        if elem.text == 'name-zayka':
+            elem.click()
+            break
+    time.sleep(7)
+
+
+
+
+
+
+
+
