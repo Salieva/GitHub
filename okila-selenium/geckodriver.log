@@ -981,3 +981,9 @@ Unable to read VR Path Registry from C:\Users\Bekhzod\AppData\Local\openvr\openv
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1522866931248	geckodriver::marionette	ERROR	Failed to stop browser process
+1523470955100	geckodriver	INFO	geckodriver 0.20.0
+1523470955142	geckodriver	INFO	Listening on 127.0.0.1:54136
+1523470958200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox ESR\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Bekhzod\\AppData\\Local\\Temp\\rust_mozprofile.uIc4fxsRUN61"
+1523470961296	Marionette	INFO	Listening on port 2828
+[Child 10656] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w64-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 10656] WARNING: 

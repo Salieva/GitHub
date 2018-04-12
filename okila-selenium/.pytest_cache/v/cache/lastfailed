@@ -1,4 +1,8 @@
 {
+  "python_lesson_1_task_1.1.py": true,
   "test-extra-1.py::test_example": true,
+  "testik.py::test_python_lesson_1_task_1": true,
+  "testik.py::test_python_lesson_1_task_1a": true,
+  "testik.py::test_python_lesson_1_task_empty_1": true,
   "text-extra-13.py": true
 }
