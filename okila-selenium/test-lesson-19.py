@@ -38,9 +38,12 @@ def test_example(driver):
     for i in range(3):
         remove_product(driver)
         driver.refresh()
-        if not is_element_present(driver, By.CSS_SELECTOR,'#box-checkout-cart  button[name="remove_cart_item"]'):
+        if not check_element_presence(driver):
             break
 
+
+def check_element_presence(driver):
+    return is_element_present(driver, By.CSS_SELECTOR, '#box-checkout-cart  button[name="remove_cart_item"]')
 
 
 def remove_product(driver):
