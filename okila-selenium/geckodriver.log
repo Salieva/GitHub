@@ -986,4 +986,9 @@ Unable to read VR Path Registry from C:\Users\Bekhzod\AppData\Local\openvr\openv
 1523470958200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox ESR\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Bekhzod\\AppData\\Local\\Temp\\rust_mozprofile.uIc4fxsRUN61"
 1523470961296	Marionette	INFO	Listening on port 2828
 [Child 10656] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w64-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
-[Child 10656] WARNING: 
+[Child 10656] WARNING: 1523650544234	geckodriver	INFO	geckodriver 0.20.0
+1523650544247	geckodriver	INFO	Listening on 127.0.0.1:58943
+1523650547312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox ESR\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Bekhzod\\AppData\\Local\\Temp\\rust_mozprofile.BaV8pf7z3NSI"
+1523650551204	Marionette	INFO	Listening on port 2828
+[Child 10696] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w64-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 10696] WARN

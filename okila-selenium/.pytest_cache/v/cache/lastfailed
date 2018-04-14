@@ -4,5 +4,6 @@
   "testik.py::test_python_lesson_1_task_1": true,
   "testik.py::test_python_lesson_1_task_1a": true,
   "testik.py::test_python_lesson_1_task_empty_1": true,
-  "text-extra-13.py": true
+  "text-extra-13.py": true,
+  "zadanie_3_praktika.py": true
 }
