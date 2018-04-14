@@ -14,10 +14,10 @@
       <file leaf-file-name="test_python_task_4a.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_python_task_4a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <element signature="e#24#82#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_python_task_4a.test_contact">
+  <component name="RunManager" selected="Python tests.py.test in test_python_task_4a.py">
     <configuration name="py.test for test_python_task_4.test_python_lesson_empty_1_task_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,8 +239,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4a.test_contact" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_python_task_4a.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_python_task_4a.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4a.test_contact" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4a.test_contact.test_test_contact" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_python_task_4.py" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.test_python_lesson_empty_1_task_1" />
@@ -273,9 +273,6 @@
     <history-entry file="py_test_for_test_python_task_4a_test_contact_test_test_contact - 2018.04.14 at 14h 19m 14s.xml">
       <configuration name="py.test for test_python_task_4a.test_contact.test_test_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 12h 50m 44s.xml">
-      <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 12h 52m 45s.xml">
       <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
     </history-entry>
@@ -292,6 +289,9 @@
       <configuration name="py.test in test_python_task_4a.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_python_task_4a_py - 2018.04.14 at 14h 23m 05s.xml">
+      <configuration name="py.test in test_python_task_4a.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_python_task_4a_py - 2018.04.14 at 15h 08m 26s.xml">
       <configuration name="py.test in test_python_task_4a.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -671,10 +671,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_python_task_4a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#24#82#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
