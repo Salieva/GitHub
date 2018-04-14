@@ -34,8 +34,8 @@
       <file leaf-file-name="test_python_task_4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_python_task_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="20">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="e#24#82#0" expanded="true" />
               </folding>
@@ -161,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1">
+  <component name="RunManager" selected="Python tests.py.test in test_python_task_4.py">
     <configuration name="py.test for test_python_task_4.python_lesson_1_task_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,10 +246,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_1_task_1" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_python_task_4.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_python_task_4.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_1_task_1" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for zadanie_3_praktika.zadanie_3_praktika" />
       </list>
     </recent_temporary>
@@ -289,16 +289,16 @@
     <history-entry file="py_test_for_test_python_task_4_python_lesson_1_task_1_test_python_lesson_empty_1_task_1 - 2018.04.14 at 12h 09m 01s.xml">
       <configuration name="py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_zadanie_3_praktika_zadanie_3_praktika - 2018.04.13 at 19h 25m 40s.xml">
-      <configuration name="py.test for zadanie_3_praktika.zadanie_3_praktika" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_zadanie_3_praktika_zadanie_3_praktika - 2018.04.13 at 19h 27m 09s.xml">
-      <configuration name="py.test for zadanie_3_praktika.zadanie_3_praktika" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_zadanie_3_praktika_zadanie_3_praktika - 2018.04.13 at 19h 29m 09s.xml">
-      <configuration name="py.test for zadanie_3_praktika.zadanie_3_praktika" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 10h 55m 12s.xml">
+      <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 12h 50m 44s.xml">
+      <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 12h 52m 45s.xml">
+      <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 12h 53m 58s.xml">
       <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -661,7 +661,7 @@
         <state relative-caret-position="385">
           <caret line="82" column="108" lean-forward="true" selection-start-line="82" selection-start-column="108" selection-end-line="82" selection-end-column="108" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -692,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_python_task_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="e#24#82#0" expanded="true" />
           </folding>
