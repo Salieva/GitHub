@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/group.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -34,10 +34,10 @@
       <file leaf-file-name="test_python_task_4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_python_task_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#24#82#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/application.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -132,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +143,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +207,7 @@
       <option name="_new_target" value="&quot;test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for zadanie_3_praktika.zadanie_3_praktika" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_python_task_4.test_python_lesson_empty_1_task_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -219,7 +219,7 @@
       <module name="okila-selenium" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;zadanie_3_praktika.zadanie_3_praktika&quot;" />
+      <option name="_new_target" value="&quot;test_python_task_4.test_python_lesson_empty_1_task_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test in test_python_task_4.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -238,19 +238,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for zadanie_3_praktika.zadanie_3_praktika" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_python_task_4.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_1_task_1" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_python_task_4.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_1_task_1" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.test_python_lesson_empty_1_task_1" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_python_task_4.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_1_task_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for zadanie_3_praktika.zadanie_3_praktika" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.test_python_lesson_empty_1_task_1" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_1_task_1" />
       </list>
     </recent_temporary>
   </component>
@@ -271,12 +271,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_python_task_4_python_lesson_1_task_1 - 2018.04.14 at 11h 11m 08s.xml">
-      <configuration name="py.test for test_python_task_4.python_lesson_1_task_1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_python_task_4_python_lesson_1_task_1 - 2018.04.14 at 11h 14m 52s.xml">
-      <configuration name="py.test for test_python_task_4.python_lesson_1_task_1" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_test_python_task_4_python_lesson_1_task_1 - 2018.04.14 at 12h 04m 35s.xml">
       <configuration name="py.test for test_python_task_4.python_lesson_1_task_1" configurationId="tests" />
     </history-entry>
@@ -289,8 +283,11 @@
     <history-entry file="py_test_for_test_python_task_4_python_lesson_1_task_1_test_python_lesson_empty_1_task_1 - 2018.04.14 at 12h 09m 01s.xml">
       <configuration name="py.test for test_python_task_4.python_lesson_1_task_1.test_python_lesson_empty_1_task_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 10h 55m 12s.xml">
-      <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_python_task_4_test_python_lesson_empty_1_task_1 - 2018.04.14 at 13h 01m 18s.xml">
+      <configuration name="py.test for test_python_task_4.test_python_lesson_empty_1_task_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_python_task_4_test_python_lesson_empty_1_task_1 - 2018.04.14 at 13h 01m 56s.xml">
+      <configuration name="py.test for test_python_task_4.test_python_lesson_empty_1_task_1" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 12h 50m 44s.xml">
       <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
@@ -299,6 +296,9 @@
       <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 12h 53m 58s.xml">
+      <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_python_task_4_py - 2018.04.14 at 13h 06m 09s.xml">
       <configuration name="py.test in test_python_task_4.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -628,23 +628,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-3-practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/task-3-practice.py" />
     <entry file="file://$PROJECT_DIR$/zadanie_3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="34" column="88" lean-forward="false" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,16 +650,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="82" column="108" lean-forward="true" selection-start-line="82" selection-start-column="108" selection-end-line="82" selection-end-column="108" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -685,17 +672,17 @@
     <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_python_task_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#82#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
