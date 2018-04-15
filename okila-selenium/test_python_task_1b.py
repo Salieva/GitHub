@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 from selenium.webdriver.firefox.webdriver import WebDriver
-from selenium.webdriver.common.action_chains import ActionChains
-import time, unittest
-from group import Group
+import unittest
+from model.group import Group
 
 
 
