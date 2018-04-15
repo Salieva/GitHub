@@ -12,7 +12,6 @@ class Application:
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
 
-
     def open_home_page(self):
         wd = self.wd
         wd.get("http://localhost/addressbook/addressbook/")
@@ -94,7 +93,6 @@ class Application:
         wd.find_element_by_name("notes").clear()
         wd.find_element_by_name("notes").send_keys(contact.notes_here)
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
-
 
     def destroy(self):
         self.wd.quit()
