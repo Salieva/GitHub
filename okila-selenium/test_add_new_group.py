@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# test_python_task_4
 import pytest
 from group import Group
 from application import Application
@@ -11,7 +12,7 @@ def app(request):
     return fixture
 
 
-def test_python_lesson_1_task_1(app):
+def test_add_new_group(app):
     app.open_home_page()
     app.login(username="admin", password="secret")
     app.open_groups_page()
@@ -20,7 +21,7 @@ def test_python_lesson_1_task_1(app):
     app.logout()
 
 
-def test_python_lesson_empty_1_task_1(app):
+def test_add_new_empty_group(app):
     app.open_home_page()
     app.login(username="admin", password="secret")
     app.open_groups_page()
